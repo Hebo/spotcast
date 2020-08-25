@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "spotcast"
+version = "0.1.0"
+description = ""
+authors = ["Hebo <hebo@hey.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.24.0"
+python-dotenv = "^0.14.0"
+beautifulsoup4 = "^4.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^19.10b0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
